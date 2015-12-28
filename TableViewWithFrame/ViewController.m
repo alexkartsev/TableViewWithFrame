@@ -24,14 +24,6 @@
     self.myTableView.dataSource = self;
     self.myTableView.delegate = self;
     [self.view addSubview:self.myTableView];
-    self.myTableView.rowHeight = UITableViewAutomaticDimension;
-    self.myTableView.estimatedRowHeight = 100.0f; // set to whatever your "average" cell height is
-    // Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 - (void)pushMyNewViewController
@@ -66,6 +58,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [self pushMyNewViewController];
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
 @end

@@ -14,7 +14,7 @@
 		114415B31C31133200F331EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 114415B21C31133200F331EE /* Assets.xcassets */; };
 		114415B61C31133200F331EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 114415B41C31133200F331EE /* LaunchScreen.storyboard */; };
 		114415BF1C31156600F331EE /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 114415BE1C31156600F331EE /* MyTableViewCell.m */; };
-		114415C51C314F7600F331EE /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 114415C41C314F7600F331EE /* SecondViewController.m */; };
+		114415C81C31774600F331EE /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 114415C71C31774600F331EE /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +30,8 @@
 		114415B71C31133200F331EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		114415BD1C31156600F331EE /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
 		114415BE1C31156600F331EE /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
-		114415C31C314F7600F331EE /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondViewController.h; path = ../SecondViewController.h; sourceTree = "<group>"; };
-		114415C41C314F7600F331EE /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondViewController.m; path = ../SecondViewController.m; sourceTree = "<group>"; };
+		114415C61C31774600F331EE /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		114415C71C31774600F331EE /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,12 +66,12 @@
 			children = (
 				114415A91C31133200F331EE /* AppDelegate.h */,
 				114415AA1C31133200F331EE /* AppDelegate.m */,
-				114415C31C314F7600F331EE /* SecondViewController.h */,
-				114415C41C314F7600F331EE /* SecondViewController.m */,
 				114415AC1C31133200F331EE /* ViewController.h */,
 				114415AD1C31133200F331EE /* ViewController.m */,
 				114415BD1C31156600F331EE /* MyTableViewCell.h */,
 				114415BE1C31156600F331EE /* MyTableViewCell.m */,
+				114415C61C31774600F331EE /* SecondViewController.h */,
+				114415C71C31774600F331EE /* SecondViewController.m */,
 				114415AF1C31133200F331EE /* Main.storyboard */,
 				114415B21C31133200F331EE /* Assets.xcassets */,
 				114415B41C31133200F331EE /* LaunchScreen.storyboard */,
@@ -159,7 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				114415C51C314F7600F331EE /* SecondViewController.m in Sources */,
+				114415C81C31774600F331EE /* SecondViewController.m in Sources */,
 				114415AE1C31133200F331EE /* ViewController.m in Sources */,
 				114415BF1C31156600F331EE /* MyTableViewCell.m in Sources */,
 				114415AB1C31133200F331EE /* AppDelegate.m in Sources */,

@@ -10,4 +10,10 @@
 
 @interface SecondViewController : UIViewController
 
+@property (strong, nonatomic) UISegmentedControl *mySegmentedControll;
+@property (strong, nonatomic) UILabel *label1;
+@property (strong, nonatomic) UIButton *roundCornerButton;
+@property (strong, nonatomic) UILabel *label2;
+@property (strong, nonatomic) UIImageView *myImageView;
+
 @end
