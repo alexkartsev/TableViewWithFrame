@@ -55,11 +55,18 @@ static float indent = 20.0f;
         [self addSubview:self.myImageView];
         
         [self.mySegmentedControll addTarget:self action:@selector(mySegmentControlAction:) forControlEvents: UIControlEventValueChanged];
-        
-        [self updateAllFrames];
     }
-    
     return self;
+}
+
+-(void)layoutSubviews {
+    self.label1.frame = CGRectMake(self.bounds.size.width/2-75, 140, 150, [self.label1 sizeThatFits:CGSizeMake(150, self.bounds.size.height)].height);
+    
+    self.roundCornerButton.frame = CGRectMake(self.bounds.size.width/2-50, self.label1.frame.size.height+self.label1.frame.origin.y+indent, 100, 20);
+    
+    self.label2.frame = CGRectMake(self.bounds.size.width/2-75, self.roundCornerButton.frame.size.height+self.roundCornerButton.frame.origin.y+indent, 150, [self.label2 sizeThatFits:CGSizeMake(self.bounds.size.height, self.bounds.size.width)].height);
+    
+    self.myImageView.frame = CGRectMake(self.bounds.size.width/2-75, self.label2.frame.origin.y+self.label2.frame.size.height+indent, 150, 150);
 }
 
 
@@ -74,19 +81,7 @@ static float indent = 20.0f;
         [self.label1 setFont:[UIFont fontWithName:@"Arial" size:16]];
         [self.label2 setFont:[UIFont fontWithName:@"Arial" size:16]];
     }
-    [UIView animateWithDuration:.2 animations:^{
-        [self updateAllFrames];
-    }];
-}
-
--(void)updateAllFrames {
-    self.label1.frame = CGRectMake(self.bounds.size.width/2-75, 140, 150, [self.label1 sizeThatFits:CGSizeMake(150, self.bounds.size.height)].height);
-    
-    self.roundCornerButton.frame = CGRectMake(self.bounds.size.width/2-50, self.label1.frame.size.height+self.label1.frame.origin.y+indent, 100, 20);
-    
-    self.label2.frame = CGRectMake(self.bounds.size.width/2-75, self.roundCornerButton.frame.size.height+self.roundCornerButton.frame.origin.y+indent, 150, [self.label2 sizeThatFits:CGSizeMake(self.bounds.size.height, self.bounds.size.width)].height);
-    
-    self.myImageView.frame = CGRectMake(self.bounds.size.width/2-75, self.label2.frame.origin.y+self.label2.frame.size.height+indent, 150, 150);
+    [self setNeedsLayout];
 }
 
 @end
