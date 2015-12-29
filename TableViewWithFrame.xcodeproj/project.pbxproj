@@ -15,6 +15,7 @@
 		114415B61C31133200F331EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 114415B41C31133200F331EE /* LaunchScreen.storyboard */; };
 		114415BF1C31156600F331EE /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 114415BE1C31156600F331EE /* MyTableViewCell.m */; };
 		114415C81C31774600F331EE /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 114415C71C31774600F331EE /* SecondViewController.m */; };
+		117D109A1C32D1DC0082295E /* ViewForSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 117D10991C32D1DC0082295E /* ViewForSecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		114415BE1C31156600F331EE /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
 		114415C61C31774600F331EE /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		114415C71C31774600F331EE /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		117D10981C32D1DC0082295E /* ViewForSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewForSecondViewController.h; sourceTree = "<group>"; };
+		117D10991C32D1DC0082295E /* ViewForSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewForSecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +73,8 @@
 				114415AD1C31133200F331EE /* ViewController.m */,
 				114415BD1C31156600F331EE /* MyTableViewCell.h */,
 				114415BE1C31156600F331EE /* MyTableViewCell.m */,
+				117D10981C32D1DC0082295E /* ViewForSecondViewController.h */,
+				117D10991C32D1DC0082295E /* ViewForSecondViewController.m */,
 				114415C61C31774600F331EE /* SecondViewController.h */,
 				114415C71C31774600F331EE /* SecondViewController.m */,
 				114415AF1C31133200F331EE /* Main.storyboard */,
@@ -162,6 +167,7 @@
 				114415C81C31774600F331EE /* SecondViewController.m in Sources */,
 				114415AE1C31133200F331EE /* ViewController.m in Sources */,
 				114415BF1C31156600F331EE /* MyTableViewCell.m in Sources */,
+				117D109A1C32D1DC0082295E /* ViewForSecondViewController.m in Sources */,
 				114415AB1C31133200F331EE /* AppDelegate.m in Sources */,
 				114415A81C31133200F331EE /* main.m in Sources */,
 			);
