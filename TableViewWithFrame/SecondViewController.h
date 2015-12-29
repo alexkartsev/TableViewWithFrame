@@ -15,5 +15,6 @@
 @property (strong, nonatomic) UIButton *roundCornerButton;
 @property (strong, nonatomic) UILabel *label2;
 @property (strong, nonatomic) UIImageView *myImageView;
+@property (strong, nonatomic) UIView *myView;
 
 @end
